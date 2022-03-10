@@ -9,9 +9,9 @@ The primary problems that I solved were converting older html elements to more a
 
 ## Installation
 
-Github repository for this project can be found at: dannelson714.github.io/Horiseon-Accessibility-Refactor
+Github repository for this project can be found at: https://github.com/dannelson714/Horiseon-Accessibility-Refactor
 
-
+URL of the deployed application: https://dannelson714.github.io/Horiseon-Accessibility-Refactor
 
 ## Credits
 
