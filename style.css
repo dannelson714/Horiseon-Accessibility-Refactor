@@ -1,9 +1,11 @@
+/* Universal Selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Element Selectors */
 body {
     background-color: #d9dcd6;
 }
@@ -15,23 +17,33 @@ footer {
     text-align: center;
 }
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-#seo {
-    color: #d9dcd6;
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
-.header nav {
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+nav {
     padding-top: 15px;
     margin-right: 100px;
     float: right;
@@ -41,11 +53,11 @@ footer {
     margin-left: 25px; 
 }
 
-.header nav ul {
+ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -59,14 +71,7 @@ p {
     font-size: 16px;
 }
 
-#hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-size: cover;
-    background-position: center;
-}
-
+/* Class Selectors */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -95,17 +100,6 @@ p {
     color: #ffffff;
 }
 
-.content-block-style h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.content-block-style p {
-    margin-bottom: 20px;
-    font-size: 14px;
-}
-
-
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -122,17 +116,17 @@ p {
     color: #ffffff;
 }
 
-.benefit-block-style h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
 .benefit-img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.footer-h2 {
-    font-size: 20px;
+/* Id Selector */
+#hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
 }
